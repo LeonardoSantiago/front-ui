@@ -1,0 +1,8 @@
+<div [style.height.px]="ui?.flex?.size?.height?.value" [style.width.px]="ui?.flex?.size?.width?.value">
+    <ng-container
+        beagleDynamicComponent
+        [config]="config"
+        [ui]="ui.child"     
+    >
+    </ng-container>
+</div>

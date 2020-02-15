@@ -1,0 +1,20 @@
+.container-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-next {
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin-left: -70px;
+    opacity: 0.6;
+    cursor: pointer;
+
+    .icon {
+        font-size: 70px;
+        color: white;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,9 @@
+<div class="table">
+    <ng-container
+        *ngFor="let item of ui.rows"
+        beagleDynamicComponent
+        [config]="config"
+        [ui]="item"
+    >
+    </ng-container>
+</div>
